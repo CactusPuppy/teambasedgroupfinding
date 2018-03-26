@@ -1,0 +1,11 @@
+name: Team Based Group Finding
+version: 0.1
+author: CactusPuppy
+main: usa.cactuspuppy.teambasedgroupfinding.Main
+commands:
+  <t>:
+    description: Sends a message to your team
+    usage: /t <message>
+  <group>:
+    description: Groups you (and your group) with another teammate (and their group).
+    usage: /group <player>
