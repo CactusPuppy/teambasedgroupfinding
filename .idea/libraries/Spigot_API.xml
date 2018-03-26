@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Spigot-API">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/GR/Minecraft/MC Server/BuildTools/Spigot/Spigot-API" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/GR/Minecraft/MC Server/BuildTools/Spigot/Spigot-API/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GR/Minecraft/MC Server/BuildTools/Spigot/Spigot-API/src/main/javadoc" />
+      <root url="file://$USER_HOME$/Documents/GR/Minecraft/MC Server/BuildTools/Spigot/Spigot-API/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
