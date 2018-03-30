@@ -41,8 +41,6 @@ public class Main extends JavaPlugin implements Listener {
 
     }
 
-    public void o
-
     public boolean onCommand(final CommandSender sender, final Command cmd, final String command, final String[] args) {
         //team chat command
         if (command.equals("t")) {
@@ -58,6 +56,7 @@ public class Main extends JavaPlugin implements Listener {
         if (command.equals("group")) {
             //TODO: Union player with person on their team
         }
+
         //team command
         if (command.equals("team")) {
             String subcommand = args[0];
@@ -75,6 +74,15 @@ public class Main extends JavaPlugin implements Listener {
                 return false;
             }
             return true;
+        }
+
+        //info command
+        if (command.equals("info")) {
+            //TODO: info commands
+        }
+
+        if (command.equals("reset")) {
+            //TODO: reset commands
         }
         return false;
     }
