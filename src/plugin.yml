@@ -9,3 +9,15 @@ commands:
   <group>:
     description: Groups you (and your group) with another teammate (and their group).
     usage: /group <player>
+  <team>:
+    description: Command for managing teams.
+    usage: /team <create/delete/join/leave> <team name> [player name]
+    permission: tbgf.mod
+  <info>:
+    description: Info command. Does what it says on the tin.
+    usage: /info <player/group/team> <player name/team name>
+    permission: tbgf.mod
+  <reset>:
+    description: Used to undo groups, teams, or everything.
+    usage: /reset <group/team/all> [player name/team name]
+    permission: tbgf.mod
